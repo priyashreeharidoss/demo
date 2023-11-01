@@ -1,39 +1,42 @@
-# PERSONAL BLOG ON IBM CLOUD STATIC WEB APPS
+# Personal Blog on IBM Cloud Static Web Apps
 
-This personal travel blog that runs on IBM Cloud
-How to run the project,
-First download the personal travel blog folder
-Inside that open the app.py file
-To run the file, install ibm_db, flask using pip in python
-Also create database in the cloud as follows
-Steps to create DB2 in cloud
-Select the DB2 service from the list of services available
-Create a database instance
-In that database, navigate to load data and upload the table structure as a csv format that is provided in the code and go to next step
-Then create a table and edit the columns as required
-Then finally the data will be loaded on to the cloud
+This is a personal travel blog that runs on IBM Cloud.
 
-Run using the command python app.py
+## How to Run the Project
 
-1. Use the docker file in the folder
-2. Built the docker image
-3.Run the docker image
-4.Use Kubernetes
-5.Deploy in cloud
+1. First, download the personal travel blog folder.
 
+2. Inside the folder, open the `app.py` file.
 
-Navigation through the pages:
+3. To run the file, install `ibm_db` and `flask` using `pip` in Python.
 
-Initially when the code is run the home page will be displayed. The navigation bar is used to navigate between pages and it is present in all the web pages.
+4. Create a database in the cloud using the following steps:
+   - Select the DB2 service from the list of available services.
+   - Create a database instance.
+   - In that database, navigate to load data and upload the table structure as a CSV format provided in the code and go to the next step.
+   - Create a table and edit the columns as required.
+   - Finally, the data will be loaded onto the cloud.
 
-In the Navigation bar,
-"HOME" links to the root of webpage ("/") i.e, home.html
-"STORIES" links to "/travel" i.e, travel.html,
-	When a particular destination from the image is clicked,it links to the blog page(eg."/taj" i.e, taj.html) related to that destination. 
-"TRIPS & GUIDES" links to "/guide" i.e, guide.html,
-	Images of various places that contain a guide will be displayed. When the image is clicked, the guide of the particular country(e.g "/india" i.e, india.html) will be displayed.
-	Inside india.html under Top destination when a destination is clicked it links to the blog post related to that destination is displayed.
-"GALLERY" links to "/gallery" i.e, gallery.html. 
+5. Run the project using the command `python app.py`.
 
+## Deployment Options
 
- 
+You can deploy the project using various methods:
+
+1. Use the provided Docker file in the folder.
+2. Build a Docker image.
+3. Run the Docker image.
+4. Consider using Kubernetes for deployment.
+5. Deploy the project in the cloud.
+
+## Navigation Through the Pages
+
+When you run the code, the home page will be displayed. The navigation bar is used to move between pages, and it is present on all web pages.
+
+In the Navigation bar:
+
+- "HOME" links to the root of the webpage ("/home.html").
+- "STORIES" links to "/travel.html". Clicking on a specific destination image leads to a related blog page (e.g., "/taj.html" for Taj Mahal).
+- "TRIPS & GUIDES" links to "/guide.html". Clicking on images of various places with guides leads to specific guide pages (e.g., "/india.html" for India).
+  Inside "india.html," under "Top destinations," clicking on a destination links to a blog post related to that destination.
+- "GALLERY" links to "/gallery.html".
