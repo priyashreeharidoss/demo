@@ -1,16 +1,16 @@
-PERSONAL BLOG ON IBM CLOUD STATIC WEB APPS
+# PERSONAL BLOG ON IBM CLOUD STATIC WEB APPS
 
 This personal travel blog that runs on IBM Cloud
 How to run the project,
-First download the personal travel blog folder.
-Inside that open the app.py file.
-To run the file, install ibm_db, flask using pip in python.
-Also create database in the cloud as follows,
-Steps to create DB2 in cloud,
-Select the DB2 service from the list of services available.
+First download the personal travel blog folder
+Inside that open the app.py file
+To run the file, install ibm_db, flask using pip in python
+Also create database in the cloud as follows
+Steps to create DB2 in cloud
+Select the DB2 service from the list of services available
 Create a database instance
 In that database, navigate to load data and upload the table structure as a csv format that is provided in the code and go to next step
-Then create a table and edit the columns as required.
+Then create a table and edit the columns as required
 Then finally the data will be loaded on to the cloud
 
 Run using the command python app.py
