@@ -3,7 +3,13 @@ How are you
 How is your family and friends
 What about your aaalu 
 is it ok to marry him!!!!
+<<<<<<< Updated upstream
 
 
 
 hey yenna moraikura avalathaan palla odachuduven 
+=======
+Yes
+What about chandru?
+Do you want him?
+>>>>>>> Stashed changes
