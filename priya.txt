@@ -3,4 +3,8 @@ working efficient is what matters a lot
 friend are made in heaven 
 happy environment
 
+<<<<<<< HEAD
 works are going smoothly no issues as of now 
+=======
+having a good mood to work with my team
+>>>>>>> aad9105 (file added)
