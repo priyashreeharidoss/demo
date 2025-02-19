@@ -9,3 +9,6 @@ full
 stack
 course
 
+devi
+priya
+shivanie
